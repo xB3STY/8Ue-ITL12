@@ -103,11 +103,11 @@
 ---
 
 ### **Verknüpfte Dateien**
-- [UserModel.php](application/model/UserModel.php)
-- [MessagesController.php](application/controller/MessagesController.php)
-- [MessageModel.php](application/model/MessageModel.php)
-- [index.php](application/view/messages/index.php)
-- [chat.php](application/view/messages/chat.php)
-- [style.css](public/css/style.css)
+- [UserModel.php](model/UserModel.php)
+- [MessagesController.php](controller/MessagesController.php)
+- [MessageModel.php](model/MessageModel.php)
+- [index.php](messages/index.php)
+- [chat.php](messages/chat.php)
+- [style.css](css/style.css)
 
 ---
