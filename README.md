@@ -92,13 +92,13 @@
 
 ### **Testfälle**
 1. **Nachricht senden**:
-   - Nachrichten des aktuellen Benutzers erscheinen rechts mit blauem Hintergrund.
-   - Nachrichten des Kontakts erscheinen links mit grauem Hintergrund.
-   - Name und Zeitstempel werden korrekt angezeigt.
+   - Nachrichten des aktuellen Benutzers erscheinen rechts mit blauem Hintergrund
+   - Nachrichten des Kontakts erscheinen links mit grauem Hintergrund
+   - Name und Zeitstempel werden korrekt angezeigt
 2. **Ungelesene Nachrichten**:
-   - Ungelesene Nachrichten werden in der Kontaktliste mit einer Badge angezeigt.
+   - Ungelesene Nachrichten werden in der Kontaktliste mit einer Badge angezeigt
 3. **Styling**:
-   - Nachrichten sind animiert und mit klarer Struktur versehen.
+   - Nachrichten sind animiert
 
 ---
 
