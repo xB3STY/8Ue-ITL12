@@ -22,9 +22,9 @@
 - **Pfad**: `application/controller/MessagesController.php`
 - **Änderungen**:
   - **`chat($contact_id)`**:
-    - **Nachrichten** zwischen zwei Benutzern werden geladen.
-    - **Nachrichten** werden nach dem Laden als "gelesen" markiert.
-    - Der **Kontaktname** wird an die Ansicht übergeben.
+    - **Nachrichten** zwischen zwei Benutzern werden geladen
+    - **Nachrichten** werden nach dem Laden als "gelesen" markiert
+    - Der **Kontaktname** wird an die Ansicht übergeben
 
 ---
 
@@ -32,9 +32,9 @@
 - **Pfad**: `application/model/MessageModel.php`
 - **Änderungen**:
   - **`getMessagesBetween($user1_id, $user2_id)`**:
-    - Holt die **Nachrichten** zwischen zwei Benutzern aus der Datenbank.
+    - Holt die **Nachrichten** zwischen zwei Benutzern aus der Datenbank
   - **`markMessagesAsRead($user_id, $sender_id)`**:
-    - Markiert **Nachrichten** als gelesen.
+    - Markiert **Nachrichten** als gelesen
   - **`getUnreadMessagesWithSenders($user_id)`**:
     - Liefert eine Liste der **ungelesenen Nachrichten** mit **Absendernamen**.
 
@@ -43,9 +43,9 @@
 ### 4. **Ansicht: `index.php`**
 - **Pfad**: `application/view/messages/index.php`
 - **Änderungen**:
-  - **Kontaktliste** auf der linken Seite.
+  - **Kontaktliste** auf der linken Seite
   - **Nachrichten-Box** auf der rechten Seite mit:
-    - **Ausrichtung** der Nachrichten (rechts/links).
+    - **Ausrichtung** der Nachrichten (rechts/links)
     - **Anzeige** des **Absendernamens** und **Zeitstempels**.
 
 ---
@@ -53,7 +53,7 @@
 ### 5. **Ansicht: `chat.php`**
 - **Pfad**: `application/view/messages/chat.php`
 - **Änderungen**:
-  - **Nachrichtenlayout** ähnlich wie in `index.php` für direkten Chat.
+  - **Nachrichtenlayout** ähnlich wie in `index.php` für direkten Chat
 
 ---
 
@@ -65,7 +65,7 @@
     - **`.sender-name`**: Für die Darstellung des **Absendernamens**.
     - **`.timestamp`**: Für den **Zeitstempel**.
   - **Animationen**:
-    - **`@keyframes fadeIn`**: Für ein besseres visuelles Erlebnis.
+    - **`@keyframes fadeIn`**: Für ein besseres visuelles Erlebnis
 
 ---
 
